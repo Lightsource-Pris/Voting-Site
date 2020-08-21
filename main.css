@@ -1,0 +1,285 @@
+
+.background-image{
+
+background-image: url(./images/Group\ 3.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 214vh;
+
+
+}
+.content-background{
+    position: absolute;
+width: 762px;
+height: 927px;
+left: 286px;
+top: 60px;
+
+background: #FFFFFF;
+border-radius: 9px;
+
+}
+.header{
+    position: absolute;
+width: 689px;
+height: 190px;
+left: 29px;
+top: 36px;
+
+background: #232B3D;
+border-radius: 8px;
+}
+.available-votes{
+    position: absolute;
+width: 155px;
+height: 21px;
+left: 266px;
+top: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.header2{
+    position: absolute;
+width: 689px;
+height: 30px;
+left: 29px;
+top: 36px;
+
+background: ;
+border-radius: 8px;
+}
+.leader{
+    position: absolute;
+width: 155px;
+height: 21px;
+left: 266px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+font-size: 40px;
+
+color: black;
+}
+.votes{
+position: absolute;
+width: 206px;
+height: 76px;
+left: 241px;
+top: 35px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 65px;
+line-height: 76px;
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+.vote-range{
+    position: absolute;
+width: 632px;
+height: 11px;
+left: 27px;
+top: 150px;
+
+background: #3B4558;
+border-radius: 22px;
+outline-color: #F7B354;
+}
+.housemate-1{
+position: absolute;
+width: 314px;
+height: 120px;
+left: 46px;
+top: 269px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+border-radius: 7px;
+}
+.image{
+position: absolute;
+width: 67px;
+height: 67px;
+border-radius: 50%;
+left: 13px;
+top: 15px;
+background: image("Ellipse 1.png");
+
+}
+.name{
+    position: absolute;
+width: 100px;
+height: 21px;
+left: 111px;
+top: 15px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: left;
+
+color: #000000;
+
+}
+.counter{
+position: absolute;
+width: 200px;
+height: 34px;
+left: 111px;
+top: 60px;
+
+
+}
+.button{
+background-color: #FFFFFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+border-radius: 8px;
+
+}
+.housemate-2{
+position: absolute;
+width: 314px;
+height: 120px;
+left: 411px;
+top: 269px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+border-radius: 7px;
+}
+.housemate-3{
+position: absolute;
+width: 314px;
+height: 120px;
+left: 46px;
+top: 441px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+border-radius: 7px;
+background-image: image("dora.jpg");
+}
+.housemate-4{
+position: absolute;
+width: 314px;
+height: 120px;
+left: 411px;
+top: 441px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+border-radius: 7px;
+}
+.housemate-5{
+position: absolute;
+width: 314px;
+height: 120px;
+left: 46px;
+top: 613px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+border-radius: 7px;
+}
+.housemate-6{
+position: absolute;
+width: 314px;
+height: 120px;
+left: 411px;
+top: 613px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+box-sizing: border-box;
+border-radius: 7px;
+}
+.btn{
+background-color:#1E2A5A;
+border: none;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 62px;
+padding-right: 62px;
+border-radius: 10px;
+margin-top: 800px;
+margin-left: 300px;
+color: #ffffff;
+font-size: 16px;
+line-height: 22px;
+left: 441px;
+top: 864px;
+}
+.btn2{
+background-color:#1E2A5A;
+border: none;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 62px;
+padding-right: 62px;
+border-radius: 10px;
+margin-top: 50px;
+margin-left: 300px;
+color: #ffffff;
+font-size: 16px;
+line-height: 22px;
+left: 441px;
+top: 864px;
+}
+
+#left{
+	float: left;
+}
+#vote_no{
+
+
+	margin-left: 40%;
+	margin-top: -43px;
+	border-radius: 50%;
+	width: 67px;
+	height: 67px;
+	background-color: #1E2A5A;;
+	text-align: center;
+	
+}
+.evict{
+	color: #18BBB6;
+	margin-left: 300px;
+	margin-top: 700px;
+}
+
+#max1,#max2,#max3,#max4,#max5,#max6{
+	margin-top:-0px;
+	color: red;
+
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+
+}

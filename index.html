@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+    <link href="./main.css" rel="stylesheet" />
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+   <div class="page-background">
+       <div class="background-image"></div>
+     <div class="content-background">
+         <div class="header">
+            <h3 class="available-votes">My Available Votes</h3>
+            <h1 class="votes" id="total">100</h1>
+            <input type="range" value="100" min="0" max="100" id="vote-ranges" class="vote-range" />
+         </div>
+         <div class="housemate-1">
+             <img class="image" src="images/download.jpg"/>
+             <h1 class="name">Laycon</h1>
+             <div class="counter">
+                <button type="button" class="button" id="downvote" onclick="laycon_unvote()">-</button>
+                <input type="number" value="0" id="laycon" name="votes-quantity" min="0" max="100">
+                <button type="button" class="button" id="upvote" onclick="laycon_vote()">+</button>
+                <h6 id="max1"></h6>
+             </div>
+
+
+         </div>
+        <div class="housemate-2">
+            <img class="image" src="images/dora.jpg" />
+            <h1 class="name">Dorathy</h1>
+            <div class="counter">
+                <button type="button" class="button" onclick="dorathy_unvote()">-</button>
+                <input type="number" value="0" id="dorathy" name="votes-quantity" min="0" max="100">
+                <button type="button" class="button" onclick="dorathy_vote()">+</button>
+                <h6 id="max2"></h6>
+            </div>
+        
+        
+        </div>
+        <div class="housemate-3">
+            <img class="image" src="images/erica.jpg" />
+            <h1 class="name">Erica</h1>
+            <div class="counter">
+                <button type="button" class="button" onclick="erica_unvote()">-</button>
+                <input type="number" id="erica" value="0" name="votes-quantity" min="0" max="100">
+                <button type="button" class="button" onclick="erica_vote()">+</button>
+                <h6 id="max3"></h6>
+            </div>
+        
+        
+        </div>
+        <div class="housemate-4">
+            <img class="image" src="images/nengi.jpg" />
+            <h1 class="name">Nengi</h1>
+            <div class="counter">
+                <button type="button" class="button" onclick="nengi_unvote()">-</button>
+                <input type="number" value="0" id="nengi" name="votes-quantity" min="0" max="100">
+                <button type="button" class="button" onclick="nengi_vote()">+</button>
+                <h6 id="max4"></h6>
+            </div>
+        
+        
+        </div>
+        <div class="housemate-5">
+            <img class="image" src="images/kidd.jpg" />
+            <h1 class="name">Kidd Waya</h1>
+            <div class="counter">
+                <button type="button" class="button" onclick="kiddwaya_unvote()">-</button>
+                <input type="number" value="0" id="kiddwaya" name="votes-quantity" min="0" max="100">
+                <button type="button" class="button" onclick="kiddwaya_vote()">+</button>
+                <h6 id="max5"></h6>
+            </div>
+        
+        
+        </div>
+        <div class="housemate-6">
+            <img class="image" src="images/ozo.jpg" />
+            <h1 class="name">OZO</h1>
+            <div class="counter">
+                <button type="button" class="button" onclick="ozo_unvote()">-</button>
+                <input type="number" value="0"  id="ozo" name="votes-quantity" min="0" max="100">
+                <button type="button" class="button" onclick="ozo_vote()">+</button>
+                <h6 id="max6"></h6>
+            </div>
+        
+        
+        </div>
+     
+        <button class="btn" type="submit" onclick="count()">submit</button>
+     </div>
+   </div> 
+    
+</body>
+<script type="text/javascript" src="js/file.js"></script>
+</html>
