@@ -59,5 +59,7 @@ document.getElementById("six").innerHTML = votes.findIndex(ozo_check)+1;
         document.getElementById("evicted").innerHTML = "kiddwaya";
  }else if (document.getElementById("six").innerHTML == "6") {
         document.getElementById("evicted").innerHTML = "Ozo";
+ }else{
+        document.getElementById("evicted").innerHTML = "Nobody";
  }
 

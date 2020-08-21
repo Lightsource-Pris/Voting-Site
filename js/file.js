@@ -48,8 +48,10 @@ function laycon_vote(){
 	
 	if (document.getElementById("total").innerHTML == "0") {
 
-		document.getElementById("max1").innerHTML = "Maximum vote reached";		
+		document.getElementById("max1").innerHTML = "Maximum vote reached";	
+		document.getElementById("finish").innerHTML = "";	
 	}
+
 }
 
 function laycon_unvote(){
@@ -89,8 +91,10 @@ function dorathy_vote(){
 	}
 	if (document.getElementById("total").innerHTML == "0") {
 
-		document.getElementById("max2").innerHTML = "Maximum vote reached";		
+		document.getElementById("max2").innerHTML = "Maximum vote reached";	
+		document.getElementById("finish").innerHTML = "";	
 	}
+
 
 }
 
@@ -131,8 +135,10 @@ function erica_vote(){
 
 	if (document.getElementById("total").innerHTML == "0") {
 
-		document.getElementById("max3").innerHTML = "Maximum vote reached";		
+		document.getElementById("max3").innerHTML = "Maximum vote reached";	
+		document.getElementById("finish").innerHTML = "";	
 	}
+	
 
 }
 
@@ -150,6 +156,8 @@ function erica_unvote(){
 
 		document.getElementById("max3").innerHTML = "";		
 	}
+
+
 }
 
 //Erica vote code ends
@@ -172,8 +180,10 @@ function nengi_vote(){
 
 	if (document.getElementById("total").innerHTML == "0") {
 
-		document.getElementById("max4").innerHTML = "Maximum vote reached";		
+		document.getElementById("max4").innerHTML = "Maximum vote reached";	
+		document.getElementById("finish").innerHTML = "";	
 	}
+	
 
 }
 
@@ -214,8 +224,10 @@ function kiddwaya_vote(){
 
 	if (document.getElementById("total").innerHTML == "0") {
 
-		document.getElementById("max5").innerHTML = "Maximum vote reached";		
+		document.getElementById("max5").innerHTML = "Maximum vote reached";	
+		document.getElementById("finish").innerHTML = "";	
 	}
+	
 
 }
 
@@ -258,6 +270,7 @@ function ozo_vote(){
 	if (document.getElementById("total").innerHTML == "0") {
 
 		document.getElementById("max6").innerHTML = "Maximum vote reached";	
+		document.getElementById("finish").innerHTML = "";
 	}
 
 }
@@ -329,7 +342,14 @@ function count() {
     sessionStorage.setItem("ozo_votes", ozo);
     sessionStorage.setItem("all_votes", counts);
 
-    location.href='vote.html';
+    if (counts < 100) {
+    	document.getElementById("finish").innerHTML = "Finish your votes";
+    }else{
+
+    	location.href='vote.html';
+    }
+
+    
 
     }
 
